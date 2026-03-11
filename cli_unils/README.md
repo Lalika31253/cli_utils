@@ -11,24 +11,23 @@ Instead of copy-pasting code between projects, you can install your package once
 
 ---
 
-## Goal
+## ⚡ Goal
 
 Learn how to create a Python package, install it locally, and share it via GitHub — step by step.
 
-## ⚡ Installation
+## 🛠 Installation
 
 You can install the package locally for development:
 
-# Clone the repo
+### Clone the repo
 git clone https://github.com/yourusername/cli-utils.git
 cd cli-utils
-# Install the package locally
+### Install the package locally
 pip install .
-
-
-Or install directly in editable mode for development:
+### Or install directly in editable mode for development:
 pip install -e .
 
-## Result
-![Result](images/result.png)
+## 🎯 Result
+![Result](/09-mar09/images/result.png)
+
 
