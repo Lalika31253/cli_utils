@@ -1,24 +1,34 @@
-# cli_utils
+# 🐍 Python Packaging for Beginners
 
 A beginner-friendly Python package with CLI utility functions.
 
-## Usage
+---
 
-```python
-from cli_utils import print_separator
+## 📖 Meaning
 
-print_separator()
-# Output: ******************************
+A **Python package** is a folder of Python files that you can import and reuse anywhere.  
+Instead of copy-pasting code between projects, you can install your package once and use it everywhere.
+
+---
+
+## Goal
+
+Learn how to create a Python package, install it locally, and share it via GitHub — step by step.
+
+## ⚡ Installation
+
+You can install the package locally for development:
+
+# Clone the repo
+git clone https://github.com/yourusername/cli-utils.git
+cd cli-utils
+# Install the package locally
+pip install .
 
 
+Or install directly in editable mode for development:
+pip install -e .
 
-# CLI Utils
+## Result
+![Result](images/result.png)
 
-This package provides utility functions to print separators in the terminal.
-
-## Functions
-
-- `print_separator()` – prints a line of 30 asterisks
-- `print_char_separator(char)` – prints a line of 30 of the specified character
-- `print_custom_separator(char, length)` – prints a custom line of any length
-- `print_labeled_separator(label, char="*", width=30)` – prints a labeled separator
