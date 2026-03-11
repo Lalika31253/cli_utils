@@ -28,6 +28,7 @@ pip install .
 pip install -e .
 
 ## 🎯 Result
-![Result](/images/result.png)
+![Result](\cli_unils\images\result.png)
+
 
 
