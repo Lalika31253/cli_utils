@@ -28,6 +28,6 @@ pip install .
 pip install -e .
 
 ## 🎯 Result
-![Result](/09-mar09/images/result.png)
+![Result](/images/result.png)
 
 
